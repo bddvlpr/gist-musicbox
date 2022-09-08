@@ -2,5 +2,8 @@ import { runWorker } from "./worker";
 
 (() => {
   runWorker();
-  setInterval(() => runWorker(), 1000 * 60 * 30);
+  setInterval(
+    () => runWorker(),
+    Number(process.env.TIME_INTERVAL) || 1000 * 60 * 30
+  );
 })();
