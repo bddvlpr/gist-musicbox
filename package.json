@@ -1,6 +1,6 @@
 {
   "name": "gist-musicbox",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Updates a given GitHub Gist with your music statistics.",
   "main": "src/index.ts",
   "repository": "https://github.com/bddvlpr/gist-musicbox",
